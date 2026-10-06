@@ -15,7 +15,7 @@ public class CalculadoraService {
     }
 
     private double dividir(int a, int b) {
-        if(b==0){
+        if(b == 0){
             throw new IllegalArgumentException("Impossivel dividir algo por zero!");
         }
         return (double) a / b;
